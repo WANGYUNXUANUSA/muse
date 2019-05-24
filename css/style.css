@@ -1,0 +1,208 @@
+.emphasis{
+  z-index: 101;
+}
+.SquaresChanging {
+  background-color: #a6b3db;
+  width: 100vw;
+  height: 200vh;
+  z-index: 1;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nonstop {
+  background-color: #a6b3db;
+  width: 100vw;
+  height: 200vh;
+  z-index: 1;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.moveme{
+        transform:translate(20px, 40px) rotate(20deg);
+  }
+  div {
+    width:450px;
+    height:450px;
+    background-color:maroon;
+    transition: all 1s ease-in;
+  }
+
+  }
+  div:hover {
+    transform:skew(10deg, 20deg) rotate(-30deg);
+    translateX(50px);
+    background-color: orange;
+    border:3px dashed green;
+  }
+  .p2{
+    width:60%;
+    margin:0 auto;
+    -webkit-animation:coolanimation 4s infinite alternate forwards;
+  }
+
+  .squares{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    margin: 20px;
+    border-color: orange;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Picasso1{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden
+  }
+  .Picasso1 img {
+    width: 600px;
+    height: 600px;
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  }
+
+  .Picasso2{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden
+  }
+  .Picasso2 img {
+    width: 600px;
+    height: 600px;
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+  }
+
+  .Picasso3{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden
+  }
+  .Picasso3 img {
+    width: 600px;
+    height: 600px;
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  }
+  .Picasso4{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden
+  }
+  .Picasso4 img {
+    width: 600px;
+    height: 600px;
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  }
+
+  .Picasso1{
+    width: 600px;
+    height:600px;
+  }
+
+  .Picasso2{
+    width: 600px;
+    height:600px;
+  }
+
+
+  .Picasso3{
+    width: 600px;
+    height:600px;
+  }
+
+  .Picasso4{
+    width: 600px;
+    height:600px;
+  }
+
+
+  .redbackground{
+      background-color: red;
+  }
+
+  .greenbackground{
+      background-color: green;
+  }
+
+  .bar {
+    display: inline-block;
+    height: 200px;
+    width:150px;
+    background-color:orange;
+    margin:10px;
+    border:1px solid black;
+  }
+
+
+
+
+
+  #bigYellowCircle {
+    background-image: url("https://www.kirupa.com/images/yellow_circle.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    opacity: .75;
+}
+#blueSquare {
+    background-image: url("https://www.kirupa.com/images/blue_square.svg");
+    background-repeat: no-repeat;
+    background-position: 97% bottom;
+    background-size: 10%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -2;
+    opacity: .75;
+}
+#greenPentagon {
+    background-image: url("https://www.kirupa.com/images/green_pentagon.svg");
+    background-repeat: no-repeat;
+    background-position: 5% top;
+    background-size: 50%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -3;
+    opacity: .75;
+}
+
+
+#blah {
+    transform: translate3d(10px, 20px, 0);
+}      

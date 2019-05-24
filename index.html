@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Yvonne's Response</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+      body {
+        text-align: center;
+        background-color: #a6b3db;
+      }
+
+      div:not(.SquaresChanging) {
+        background-color: red;
+        border: 30px solid blue;
+        width: 600px;
+        height: 600px;
+        display: inline-block;
+        text-align: center;
+        font-size: 100px;
+        margin: 0 20px;
+          }
+
+      div:not(.nonstop) {
+        background-color: red;
+        border: 30px solid blue;
+        width: 600px;
+        height: 600px;
+        display: inline-block;
+        text-align: center;
+        font-size: 100px;
+        margin: 0 20px;
+          }
+
+        div {
+          width:400px;
+          height:400px;
+          background-color:maroon;
+          transition: all 1s ease-in;
+        }
+
+
+        div:hover {
+          transform:skew(10deg, 20deg) rotate(-30deg);
+          translateX(50px);
+          background-color: yellow;
+          border:3px dashed green;
+        }
+
+        @-webkit-keyframes coolanimation {
+          100%{
+            -webkit-transform: rotate(90deg);
+            background-color: red;
+          }
+        }
+      </style>
+      <meta charset="utf-8" />
+      <title>Desktop</title>
+      <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1><span class="emphasis">Museum Response</span> by Yunxuan</h1>
+    <h2>Pablo Picasso's Seated Woman With a Book 1910</h2>
+    <h3>(Femme assise au livre)</h3>
+    <p>
+    Web Programming Workshop SP19
+    </p>
+
+
+
+      <a href="SquaresChanging.html"><div class="SquaresChanging">
+        <img class="Picasso1" src="pics/Picasso1.png"></div>
+      </a>
+
+      <a href="nonstop.html"><div class="nonstop">
+        <img class="Picasso2" src="pics/Picasso2.png"></div>
+      </div> </a>
+
+      <a href="curves.html"><div class="curves">
+        <img class="Picasso3" src="pics/Picasso3.png"></div>
+      </div> </a>
+
+      <a href="Description.html"><div class="Description">
+        <img class="Picasso4" src="pics/Picasso4.png"></div>
+      </div> </a>
+
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
